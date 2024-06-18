@@ -1,3 +1,4 @@
+if game.PlaceId == 17240213780 then
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Eat Blobs Simulator", HidePremium = false, SaveConfig = true, ConfigFolder = "testingerthg"})
 
@@ -37,6 +38,7 @@ PlayerTab:AddSlider({
 	end    
 })
 
+end
 OrionLib:Init()
 
 OrionLib:MakeNotification({
